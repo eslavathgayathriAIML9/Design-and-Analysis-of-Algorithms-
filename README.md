@@ -33,3 +33,11 @@ It does not require extra arrays for sorting.
 
 Conclusion:
 Heap Sort is an efficient and reliable sorting algorithm with a worst-case time complexity of O(n log n). It performs consistently even when the input data is already sorted or arranged in an unfavorable order. Although Heap Sort is generally not stable and can be less practical than Quick Sort in some cases, its guaranteed O(n log n) performance and O(1) extra space make it useful for memory-constrained applications.
+
+practical-4
+
+Summary:
+The program calculates the factorial of a given number using iterative and recursive methods. The iterative method uses a loop, while the recursive method uses repeated function calls. The program also measures the execution time of both methods using Python's time.perf_counter() function.
+
+Conclusion:
+Both iterative and recursive methods produce the same factorial result and have a time complexity of O(n). However, the iterative method requires O(1) space, while the recursive method requires O(n) space due to the function call stack. Therefore, the iterative method is more memory-efficient, while the recursive method is useful for understanding recursion and its applications.
