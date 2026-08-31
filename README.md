@@ -51,3 +51,14 @@ The Making Change Problem is solved using Dynamic Programming by storing the min
 Conclusion:
 
 Dynamic Programming provides an efficient solution to the Making Change Problem. The algorithm has a time complexity of O(n × A) and a space complexity of O(A), where n is the number of coin denominations and A is the target amount. It is more efficient than repeatedly solving the same subproblems and is suitable for finding the minimum number of coins required for a given amount.
+
+PRACTICAL-6
+
+Summary:
+
+Matrix Chain Multiplication is an optimization problem that determines the best order to multiply a sequence of matrices so that the total number of scalar multiplications is minimized. Using Dynamic Programming, the problem is divided into smaller subproblems, and their results are stored in a table to avoid repeated calculations.
+The Dynamic Programming approach uses the recurrence relation to calculate the minimum multiplication cost for different matrix chains. For n matrices, the algorithm has a time complexity of O(n³) and a space complexity of O(n²). The Python implementation accepts matrix dimensions from the user and can also measure the execution time.
+
+Conclusion:
+
+Matrix Chain Multiplication using Dynamic Programming is an efficient technique for finding the optimal multiplication order of matrices. Although the algorithm does not change the final matrix result, it can significantly reduce the number of scalar operations required. By storing previously calculated results, Dynamic Programming avoids unnecessary repeated computations. Therefore, this method is useful for solving matrix multiplication optimization problems efficiently and demonstrates the practical application of Dynamic Programming in algorithm design.
