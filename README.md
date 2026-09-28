@@ -62,3 +62,17 @@ The Dynamic Programming approach uses the recurrence relation to calculate the m
 Conclusion:
 
 Matrix Chain Multiplication using Dynamic Programming is an efficient technique for finding the optimal multiplication order of matrices. Although the algorithm does not change the final matrix result, it can significantly reduce the number of scalar operations required. By storing previously calculated results, Dynamic Programming avoids unnecessary repeated computations. Therefore, this method is useful for solving matrix multiplication optimization problems efficiently and demonstrates the practical application of Dynamic Programming in algorithm design.
+
+PRACTICAL-8
+
+Summary of BFS:
+Breadth-First Search (BFS) is a graph traversal algorithm that visits vertices level by level. It starts from a selected vertex, visits all its neighboring vertices, and then visits the neighbors of those vertices. BFS uses a queue data structure to maintain the order of traversal. It is useful for finding the shortest path in an unweighted graph and for exploring connected components.
+
+Conclusion of BFS:
+BFS provides an efficient way to traverse and search a graph. It systematically visits every reachable vertex and edge, with a time complexity of O(V + E), where V is the number of vertices and E is the number of edges. Therefore, BFS is widely used in shortest-path problems, network traversal, and graph-based applications.
+
+Summary – DFS
+Depth First Search (DFS) is a graph traversal technique that visits a node and then explores its adjacent nodes as deeply as possible before backtracking. DFS can be implemented using recursion or a stack. It is useful for exploring graphs, finding connected components, detecting cycles, and solving maze/path problems. Its time complexity is O(V + E), where V is the number of vertices and E is the number of edges.
+
+Conclusion – DFS
+DFS provides a simple and effective way to traverse a graph by exploring one path completely before moving to another path. The Python implementation demonstrates how a graph can be represented using an adjacency list and traversed using DFS. Thus, DFS is an important graph-searching algorithm with many applications in computer science.
