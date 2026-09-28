@@ -76,3 +76,9 @@ Depth First Search (DFS) is a graph traversal technique that visits a node and t
 
 Conclusion – DFS
 DFS provides a simple and effective way to traverse a graph by exploring one path completely before moving to another path. The Python implementation demonstrates how a graph can be represented using an adjacency list and traversed using DFS. Thus, DFS is an important graph-searching algorithm with many applications in computer science.
+PRACTICAL-9
+Summary
+Prim's Algorithm builds a Minimum Spanning Tree by starting from any vertex and repeatedly choosing the smallest edge that connects the existing tree to a new vertex.
+
+Conclusion
+Prim's Algorithm is an efficient greedy algorithm for finding the Minimum Spanning Tree of a weighted, connected, undirected graph. It ensures that all vertices are connected with the minimum possible total edge weight and without forming cycles.
