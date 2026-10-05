@@ -84,3 +84,12 @@ Prim's Algorithm builds a Minimum Spanning Tree by starting from any vertex and 
 
 Conclusion
 Prim's Algorithm is an efficient greedy algorithm for finding the Minimum Spanning Tree of a weighted, connected, undirected graph. It ensures that all vertices are connected with the minimum possible total edge weight and without forming cycles.
+
+
+PRATICAL-10
+
+Summary
+Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted graph. It first sorts all edges in increasing order of their weights and then selects the smallest edge that does not form a cycle. The process continues until V − 1 edges are selected. The algorithm uses the Union-Find (Disjoint Set) technique to efficiently detect cycles. Its time complexity is O(E log E).
+
+Conclusion
+Kruskal’s algorithm provides an efficient way to find the minimum-cost spanning tree of a connected weighted graph. By selecting the smallest possible edges without creating cycles, it produces an MST with minimum total weight. It is especially useful for network design, road connections, computer networks, and communication systems where minimizing connection cost is important.
