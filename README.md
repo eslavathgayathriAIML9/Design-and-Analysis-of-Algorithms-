@@ -71,25 +71,25 @@ Breadth-First Search (BFS) is a graph traversal algorithm that visits vertices l
 Conclusion of BFS:
 BFS provides an efficient way to traverse and search a graph. It systematically visits every reachable vertex and edge, with a time complexity of O(V + E), where V is the number of vertices and E is the number of edges. Therefore, BFS is widely used in shortest-path problems, network traversal, and graph-based applications.
 
-Summary – DFS
+Summary – DFS:
 Depth First Search (DFS) is a graph traversal technique that visits a node and then explores its adjacent nodes as deeply as possible before backtracking. DFS can be implemented using recursion or a stack. It is useful for exploring graphs, finding connected components, detecting cycles, and solving maze/path problems. Its time complexity is O(V + E), where V is the number of vertices and E is the number of edges.
 
-Conclusion – DFS
+Conclusion – DFS:
 DFS provides a simple and effective way to traverse a graph by exploring one path completely before moving to another path. The Python implementation demonstrates how a graph can be represented using an adjacency list and traversed using DFS. Thus, DFS is an important graph-searching algorithm with many applications in computer science.
 
 PRACTICAL-9
 
-Summary
+Summary:
 Prim's Algorithm builds a Minimum Spanning Tree by starting from any vertex and repeatedly choosing the smallest edge that connects the existing tree to a new vertex.
 
-Conclusion
+Conclusion:
 Prim's Algorithm is an efficient greedy algorithm for finding the Minimum Spanning Tree of a weighted, connected, undirected graph. It ensures that all vertices are connected with the minimum possible total edge weight and without forming cycles.
 
 
 PRATICAL-10
 
-Summary
+Summary:
 Kruskal’s algorithm is a greedy algorithm used to find the Minimum Spanning Tree (MST) of a weighted graph. It first sorts all edges in increasing order of their weights and then selects the smallest edge that does not form a cycle. The process continues until V − 1 edges are selected. The algorithm uses the Union-Find (Disjoint Set) technique to efficiently detect cycles. Its time complexity is O(E log E).
 
-Conclusion
+Conclusion:
 Kruskal’s algorithm provides an efficient way to find the minimum-cost spanning tree of a connected weighted graph. By selecting the smallest possible edges without creating cycles, it produces an MST with minimum total weight. It is especially useful for network design, road connections, computer networks, and communication systems where minimizing connection cost is important.
